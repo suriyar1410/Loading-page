@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  display: inline-block;
+  height: 60px;
+  width: 20px;
+  background-color: red;
+  margin: 0 2px;
+  animation: zoom 0.6s infinite alternate;
+}
+@keyframes zoom {
+  0% {
+    transform: scaley(1);
+  }
+  25% {
+    transform: scaley(1);
+  }
+  50% {
+    transform: scaley(1);
+  }
+  75% {
+    transform: scaley(1);
+  }
+  100% {
+    transform: scaley(3);
+  }
+}
+li:nth-child(1) {
+  animation-delay: 0.1s;
+}
+li:nth-child(2) {
+  animation-delay: 0.2s;
+}
+li:nth-child(3) {
+  animation-delay: 0.3s;
+}
+li:nth-child(4) {
+  animation-delay: 0.4s;
+}
+li:nth-child(5) {
+  animation-delay: 0.5s;
+}
